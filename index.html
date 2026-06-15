@@ -12,15 +12,20 @@ background: black;
 color: white;
 }
 
-@media screen and (max-width: 767px) {
-/* start of medium tablet styles */
+@media only screen 
+and (max-device-width: 600px)
+ { body{
 background: blue;
-}
+color: white;
+ }
 
-@media screen and (max-width: 479px) {
-/* start of phone styles */
-background: green;
-}
+/* mobile only styles when the device is 0-600px in maximum width */
+
+@media only screen 
+and (max-device-width: 1000px)
+{ ... }
+   }  
+   
 </style>
 </head>
 <body>
