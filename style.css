@@ -2,15 +2,15 @@
 
 @media screen and (max-width: 991px) {
 /* start of large tablet styles */
-
+background: black;
 }
 
 @media screen and (max-width: 767px) {
 /* start of medium tablet styles */
-
+background: blue;
 }
 
 @media screen and (max-width: 479px) {
 /* start of phone styles */
-
+background: green;
 }
